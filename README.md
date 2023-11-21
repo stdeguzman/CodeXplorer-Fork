@@ -1,9 +1,6 @@
-# CodeXplorer: An AI-Assisted Codebase Navigation System
+# CodeXplorer: An AI-Assisted Codebase Navigation
 ## Problem: Large codebases take time to navigate
-<img src="repo/main.png" width="700">
-
-## Prototype
-<img src="repo/codexplorer.jpeg" width="700">
+<img src="repo/main.png" width="600">
 
 ## AI 
 <img src="repo/codex.jpeg" width="1200">
