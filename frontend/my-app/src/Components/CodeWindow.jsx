@@ -3,12 +3,13 @@ import "../stylesheets/codeWindow.css";
 import LoadingIndicator from "./LoadingIndicator";
 
 function CodeWindow({ codeContent, nodeTree }) {
+	console.log(codeContent);
 	const [loaded, setLoaded] = useState(false);
 
 	return (
 	  <div className="codeWindow">
 		<div className="codeWindowContent" contentEditable="true">
-		  {codeContent}
+		  <pre>{codeContent} </pre>
 		</div>
 		{loaded === false ? <LoadingIndicator /> : null}
 	  </div>

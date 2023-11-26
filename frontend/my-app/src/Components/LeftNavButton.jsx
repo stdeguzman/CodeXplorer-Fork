@@ -20,7 +20,7 @@ const LeftNavButton = (props) => {
 				>
 					<img
 						className="leftNavIcon"
-						src={require(`../images/${props.page}.svg`).default}
+						src={require(`../images/${props.page}.svg`)}
 						alt={props.page}
 					/>
 				</button>

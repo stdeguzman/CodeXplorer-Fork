@@ -23,7 +23,6 @@ function NodeView({ nodeTree, depth }) {
 	const children = first.children;
 	const maxChild = children[children.length - 1] + 1;
 	const nextNode = nodeTree.filter((element) => element.idx >= maxChild)
-	console.log(idx, nodeTree);
 	const context = first.context;
 
 	return (
