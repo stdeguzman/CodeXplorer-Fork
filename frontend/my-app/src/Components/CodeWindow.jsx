@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "../stylesheets/codeWindow.css";
 import LoadingIndicator from "./LoadingIndicator";
 
-function CodeWindow({ codeContent }) {
+function CodeWindow({ codeContent, nodeTree }) {
 	const [loaded, setLoaded] = useState(false);
 
 	return (
